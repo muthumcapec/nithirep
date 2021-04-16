@@ -135,7 +135,7 @@
     <Token BMAVersion="4.7.0" Encrypt="false"
       Key="undertow_server_https_protocol" OriginalBMAVersion="4.7.0" Value="TLSv1.2"/>
   </TokenSet>
-  <TokenSet Description="" IsDefault="true" Name="JbossApr16Master-21">
+  <TokenSet Description="" IsDefault="false" Name="JbossApr16Master-21">
     <Token BMAVersion="4.7.0" Encrypt="false" Key="profile_name"
       OriginalBMAVersion="4.7.0" Value="myFullJB"/>
     <Token BMAVersion="4.7.0" Encrypt="false" Key="profile_cloneFrom"
