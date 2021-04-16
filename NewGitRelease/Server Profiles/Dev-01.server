@@ -213,7 +213,7 @@
     <Token BMAVersion="4.7.0" Encrypt="false"
       Key="serverConfig_serverName" OriginalBMAVersion="4.7.0" Value="JBServer%i"/>
     <Token BMAVersion="4.7.0" Encrypt="false"
-      Key="serverConfig_hostList" OriginalBMAVersion="4.7.0" Value="localhost"/>
+      Key="serverConfig_hostList" OriginalBMAVersion="4.7.0" Value="hostOne"/>
     <Token BMAVersion="4.7.0" Encrypt="false"
       Key="serverConfig_startIndex" OriginalBMAVersion="4.7.0" Value="5"/>
     <Token BMAVersion="4.7.0" Encrypt="false"
