@@ -12,13 +12,13 @@
     TempDir="/tmp" User="admin"/>
   <ConnectionType Protocol="RMI"/>
   <TrustStore useRetrieveSigners="true"/>
-  <TokenSet Description="" IsDefault="true" Name="JbossApr15Master-21">
+  <TokenSet Description="" IsDefault="false" Name="JbossApr16Master-21">
     <Token BMAVersion="4.7.0" Encrypt="false" Key="profile_name"
-      OriginalBMAVersion="4.7.0" Value="myFull"/>
+      OriginalBMAVersion="4.7.0" Value="myFullJB"/>
     <Token BMAVersion="4.7.0" Encrypt="false" Key="profile_cloneFrom"
       OriginalBMAVersion="4.7.0" Value="full"/>
     <Token BMAVersion="4.7.0" Encrypt="false" Key="serverGroup_name"
-      OriginalBMAVersion="4.7.0" Value="servergroup1"/>
+      OriginalBMAVersion="4.7.0" Value="JBServergroup1"/>
     <Token BMAVersion="4.7.0" Encrypt="false"
       Key="serverGroup_jvm_heapSize" OriginalBMAVersion="4.7.0" Value="256m"/>
     <Token BMAVersion="4.7.0" Encrypt="false"
@@ -74,7 +74,7 @@
       Key="serverGroup_systemProp_values_1_value"
       OriginalBMAVersion="4.7.0" Value="25"/>
     <Token BMAVersion="4.7.0" Encrypt="false" Key="binding_name"
-      OriginalBMAVersion="4.7.0" Value="full-sockets"/>
+      OriginalBMAVersion="4.7.0" Value="JBFull-sockets"/>
     <Token BMAVersion="4.7.0" Encrypt="false"
       Key="binding_outbound_0_name" OriginalBMAVersion="4.7.0" Value="dcs"/>
     <Token BMAVersion="4.7.0" Encrypt="false"
@@ -88,9 +88,9 @@
     <Token BMAVersion="4.7.0" Encrypt="false"
       Key="binding_outbound_1_port" OriginalBMAVersion="4.7.0" Value="1266"/>
     <Token BMAVersion="4.7.0" Encrypt="false"
-      Key="serverConfig_serverName" OriginalBMAVersion="4.7.0" Value="Server%i"/>
+      Key="serverConfig_serverName" OriginalBMAVersion="4.7.0" Value="JBServer%i"/>
     <Token BMAVersion="4.7.0" Encrypt="false"
-      Key="serverConfig_hostList" OriginalBMAVersion="4.7.0" Value="localhost"/>
+      Key="serverConfig_hostList" OriginalBMAVersion="4.7.0" Value="hostOne"/>
     <Token BMAVersion="4.7.0" Encrypt="false"
       Key="serverConfig_startIndex" OriginalBMAVersion="4.7.0" Value="5"/>
     <Token BMAVersion="4.7.0" Encrypt="false"
@@ -135,7 +135,7 @@
     <Token BMAVersion="4.7.0" Encrypt="false"
       Key="undertow_server_https_protocol" OriginalBMAVersion="4.7.0" Value="TLSv1.2"/>
   </TokenSet>
-  <TokenSet Description="" IsDefault="false" Name="JbossApr16Master-21">
+  <TokenSet Description="" IsDefault="false" Name="JbossApr15Master-21">
     <Token BMAVersion="4.7.0" Encrypt="false" Key="profile_name"
       OriginalBMAVersion="4.7.0" Value="myFullJB"/>
     <Token BMAVersion="4.7.0" Encrypt="false" Key="profile_cloneFrom"
