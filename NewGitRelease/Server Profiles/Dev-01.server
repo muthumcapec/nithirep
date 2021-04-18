@@ -211,7 +211,7 @@
     <Token BMAVersion="4.7.0" Encrypt="false"
       Key="binding_outbound_1_port" OriginalBMAVersion="4.7.0" Value="1266"/>
     <Token BMAVersion="4.7.0" Encrypt="false"
-      Key="serverConfig_serverName" OriginalBMAVersion="4.7.0" Value="JBS%i-%H"/>
+      Key="serverConfig_serverName" OriginalBMAVersion="4.7.0" Value="JBS%i-%h"/>
     <Token BMAVersion="4.7.0" Encrypt="false"
       Key="serverConfig_hostList" OriginalBMAVersion="4.7.0" Value="hostOne"/>
     <Token BMAVersion="4.7.0" Encrypt="false"
