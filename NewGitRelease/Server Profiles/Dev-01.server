@@ -249,6 +249,12 @@
       OriginalBMAVersion="4.7.0" Value="[&quot;dcs&quot;,&quot;dcs2&quot;]"/>
     <Token BMAVersion="4.7.0" Encrypt="false" Key="modcluster_connector"
       OriginalBMAVersion="4.7.0" Value="https-listener"/>
+    <Token BMAVersion="4.7.0" Encrypt="false"
+      Key="elytron_keystore_algorithm" OriginalBMAVersion="4.7.0" Value="SunX509"/>
+    <Token BMAVersion="4.7.0" Encrypt="false"
+      Key="elytron_keystore_credential" OriginalBMAVersion="4.7.0" Value="MASK-0P/57779hhh/"/>
+    <Token BMAVersion="4.7.0" Encrypt="false"
+      Key="elytron_truststore_credential" OriginalBMAVersion="4.7.0" Value="MASK-0P/57779hhh /"/>
     <Token BMAVersion="4.7.0" Encrypt="false" Key="naming_bindingName"
       OriginalBMAVersion="4.7.0" Value="java:/cut/encrypt/key"/>
     <Token BMAVersion="4.7.0" Encrypt="false" Key="naming_bindingValue"
