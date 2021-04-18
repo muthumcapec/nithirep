@@ -136,6 +136,7 @@
       host="${ph:binding_outbound_1_host}" port="${ph:binding_outbound_1_port}"/>
   </Socket-Binding-Group>
   <Multi-Server-Creation-Config auto-start="true"
+    hostNameMapping="${ph:serverConfig_hostNameMapping}"
     name="${ph:serverConfig_serverName}"
     numberOfInstance="${ph:serverConfig_serverPerHost}"
     serverGroup="${ph:serverGroup_name}"
