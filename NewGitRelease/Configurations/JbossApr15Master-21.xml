@@ -26,6 +26,30 @@
         </Configuration>
       </Configuration>
     </Subsystem>
+    <Subsystem SelfName="elytron" SelfType="subsystem">
+      <Configuration SelfName="modcluster-ssl-context" SelfType="client-ssl-context">
+        <Attribute name="key-manager" type="java.lang.String" value="keymanager"/>
+        <Attribute name="trust-manager" type="java.lang.String" value="trustmanager"/>
+      </Configuration>
+      <Configuration SelfName="keymanager" SelfType="key-manager">
+        <Attribute name="algorithm" type="java.lang.String" value="${ph:elytron_keystore_algorithm}"/>
+        <Attribute name="credential-reference" type="java.lang.String" value="{&quot;clear-text&quot; => &quot;${ph:elytron_keystore_credential}&quot;}"/>
+        <Attribute name="key-store" type="java.lang.String" value="keystore"/>
+      </Configuration>
+      <Configuration SelfName="keystore" SelfType="key-store">
+        <Attribute name="credential-reference" type="java.lang.String" value="{&quot;clear-text&quot; => &quot;${ph:elytron_keystore_credential}&quot;}"/>
+        <Attribute name="path" type="java.lang.String" value="${ph:serverGroup_systemProp_keystoreFile}"/>
+        <Attribute name="type" type="java.lang.String" value="jks"/>
+      </Configuration>
+      <Configuration SelfName="trustmanager" SelfType="trust-manager">
+        <Attribute name="key-store" type="java.lang.String" value="truststore"/>
+      </Configuration>
+      <Configuration SelfName="truststore" SelfType="key-store">
+        <Attribute name="credential-reference" type="java.lang.String" value="{&quot;clear-text&quot; => &quot;${ph:elytron_truststore_credential}&quot;}"/>
+        <Attribute name="path" type="java.lang.String" value="${ph:serverGroup_systemProp_truststoreFile}"/>
+        <Attribute name="type" type="java.lang.String" value="jks"/>
+      </Configuration>
+    </Subsystem>
     <Subsystem SelfName="naming" SelfType="subsystem">
       <Configuration SelfName="${ph:naming_bindingName}" SelfType="binding">
         <Attribute name="binding-type" type="java.lang.String" value="simple"/>
