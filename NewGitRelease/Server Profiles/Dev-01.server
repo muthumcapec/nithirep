@@ -237,6 +237,40 @@
     <Token BMAVersion="4.7.0" Encrypt="false"
       Key="serverConfig_systemProp_values_1_value"
       OriginalBMAVersion="4.7.0" Value="25"/>
+    <Token BMAVersion="4.7.0" Encrypt="false"
+      Key="datasource_dspool_0_name" OriginalBMAVersion="4.7.0" Value="Oracle-pool"/>
+    <Token BMAVersion="4.7.0" Encrypt="false"
+      Key="datasource_dspool_0_driverName" OriginalBMAVersion="4.7.0" Value="OracleDriver"/>
+    <Token BMAVersion="4.7.0" Encrypt="false"
+      Key="datasource_dspool_0_driverType" OriginalBMAVersion="4.7.0" Value="oracle"/>
+    <Token BMAVersion="4.7.0" Encrypt="false"
+      Key="datasource_dspool_0_validSql" OriginalBMAVersion="4.7.0" Value="select 1 from dual"/>
+    <Token BMAVersion="4.7.0" Encrypt="false"
+      Key="datasource_dspool_0_connUrl" OriginalBMAVersion="4.7.0" Value="jdbc:oracle:thin:@localhost:1521:invdb"/>
+    <Token BMAVersion="4.7.0" Encrypt="false"
+      Key="datasource_dspool_0_jndiName" OriginalBMAVersion="4.7.0" Value="jndi:myorcldb"/>
+    <Token BMAVersion="4.7.0" Encrypt="false"
+      Key="datasource_dspool_0_maxPool" OriginalBMAVersion="4.7.0" Value="15"/>
+    <Token BMAVersion="4.7.0" Encrypt="false"
+      Key="datasource_dspool_0_minPool" OriginalBMAVersion="4.7.0" Value="5"/>
+    <Token BMAVersion="4.7.0" Encrypt="false"
+      Key="datasource_dspool_0_idleTimeoutMin"
+      OriginalBMAVersion="4.7.0" Value="5"/>
+    <Token BMAVersion="4.7.0" Encrypt="false"
+      Key="datasource_dspool_0_blockTimeoutMs"
+      OriginalBMAVersion="4.7.0" Value="10000"/>
+    <Token BMAVersion="4.7.0" Encrypt="false"
+      Key="datasource_dspool_0_flushStrategy" OriginalBMAVersion="4.7.0" Value="EntirePool"/>
+    <Token BMAVersion="4.7.0" Encrypt="false"
+      Key="datasource_dspool_0_username" OriginalBMAVersion="4.7.0" Value="mdeliver"/>
+    <Token BMAVersion="4.7.0" Encrypt="true"
+      Key="datasource_dspool_0_password" OriginalBMAVersion="4.7.0" Value="{PHE1}QTXLiJyvrLlunY+DaD1jnQ=="/>
+    <Token BMAVersion="4.7.0" Encrypt="false"
+      Key="datasource_driver_0_name" OriginalBMAVersion="4.7.0" Value="OracleDriver"/>
+    <Token BMAVersion="4.7.0" Encrypt="false"
+      Key="datasource_driver_0_type" OriginalBMAVersion="4.7.0" Value="oracle"/>
+    <Token BMAVersion="4.7.0" Encrypt="false"
+      Key="datasource_driver_0_moduleName" OriginalBMAVersion="4.7.0" Value="com.oracle.ojdbc6"/>
     <Token BMAVersion="4.7.0" Encrypt="false" Key="io_threads"
       OriginalBMAVersion="4.7.0" Value="10"/>
     <Token BMAVersion="4.7.0" Encrypt="false" Key="io_httpMaxThreads"
