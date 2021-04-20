@@ -248,7 +248,7 @@
     <Token BMAVersion="4.7.0" Encrypt="false"
       Key="datasource_dspool_0_connUrl" OriginalBMAVersion="4.7.0" Value="jdbc:oracle:thin:@localhost:1521:invdb"/>
     <Token BMAVersion="4.7.0" Encrypt="false"
-      Key="datasource_dspool_0_jndiName" OriginalBMAVersion="4.7.0" Value="jndi:myorcldb"/>
+      Key="datasource_dspool_0_jndiName" OriginalBMAVersion="4.7.0" Value="java:/myOrclDb"/>
     <Token BMAVersion="4.7.0" Encrypt="false"
       Key="datasource_dspool_0_maxPool" OriginalBMAVersion="4.7.0" Value="15"/>
     <Token BMAVersion="4.7.0" Encrypt="false"
